@@ -439,8 +439,8 @@ a {
         box-sizing: border-box;
     }
     .food-header {
-        padding-left:40px;
-        width: auto;
+        width: 100%;
+        padding-left: 25px;
         min-width: 320px;
         height: 72px;
         gap: 15px;
@@ -469,6 +469,7 @@ a {
         align-items: center;
     }
 .restaureant-container-name {
+    width: 100%;
     grid-column: 1;
     grid-row: 1;
     height: 150px;
@@ -534,17 +535,18 @@ a {
 }
 .food-footer{
     width: 100%;
-    max-width: 320px;
+    min-width: 320px;
 }
 .food-footer-body{
     width: 320px;
 }
 .food-footer {
         width: 100%;
-        max-width: 320px;
+        min-width: 320px;
         height: 100%;
     }
 .food-footer-hade {
+    width: 100%;
     margin-top: 35px;
     display: flex;
     gap: 15px;
